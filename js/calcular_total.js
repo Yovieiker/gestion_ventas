@@ -12,7 +12,7 @@ function agregarProducto() {
     10
   ); // Asegura la conversión a número
 
-  // Verifica que la cantidad sea un número válido y vendedor sea seleccionado
+  // Verifica que la cantidad sea un número válido
   if (isNaN(cantidadProducto)) {
     document.getElementById("alert").classList.remove("d-none");
     document.getElementById("alert").classList.add("d-block");
@@ -71,7 +71,6 @@ document
   .querySelector("#agregarProducto")
   .addEventListener("click", function () {
     agregarProducto();
-    // agregar array de productos al input hiden
   });
 
 // Actualizar la categoría al seleccionar un producto

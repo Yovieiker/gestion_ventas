@@ -42,7 +42,6 @@ abrirModalBtn.addEventListener("click", function () {
       });
   } else {
     //quitar una clase css y poner otra
-    //eliminar una clase
     document.getElementById("alert").classList.remove("d-none");
     document.getElementById("alert").classList.add("d-block");
   }

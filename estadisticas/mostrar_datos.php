@@ -79,6 +79,4 @@ if ($resultado->num_rows > 0) {
     echo "<p>No se encontraron ventas</p>";
 }
 
-// Ahora almacenar los datos en la tabla estadisticas_ventas guardar id del vendedor, cantidad de ventas, total de ventas y los productos más vendidos
-
 ?>

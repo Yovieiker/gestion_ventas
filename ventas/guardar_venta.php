@@ -39,7 +39,6 @@ if ($cedulaRifCliente) {
   echo "cliente no registrado";
 }
 
-// Continúa con la inserción de la venta utilizando el ID del cliente
 $fechaVenta = date('Y-m-d');
 
 $sqlInsertVenta = "INSERT INTO ventas (id_cliente, id_vendedor, fecha, subtotal, impuesto, total) VALUES ($idCliente, $idVendedor, '$fechaVenta', $subtotal, $impuesto, 0)";

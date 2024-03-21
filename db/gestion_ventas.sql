@@ -61,6 +61,9 @@ CREATE TABLE productos_venta (
   PRIMARY KEY (id_venta, id_producto)
 );
 
+INSERT INTO `clientes` (`id_cliente`, `nombre`, `cedula_rif`, `telefono`, `direccion`) VALUES
+(1, 'prueba', '26779975', '04145768079', 'barrio union');
+
 
 INSERT INTO `categorias` (`id_categoria`, `nombre`) VALUES
 (1, 'Limpiadores multiusos'),
